@@ -1,7 +1,7 @@
 # YOLOv5 ascend 
 This repo is YOLOv5 om model inference program on the Huawei Ascend platform.
 
-All programs passed the test on Huawei Atlas 300I inference card (Ascend 310 AI CPU, CANN 5.0.2, npu-smi 21.0.2).
+All programs passed the test on Huawei `Atlas 300I` inference card (`Ascend 310 AI CPU`, `CANN 5.0.2`, `npu-smi 21.0.2`).
 
 You can run demo by `python detect_yolov5_ascend.py`.
 
