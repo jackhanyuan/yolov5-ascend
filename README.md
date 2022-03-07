@@ -1,6 +1,8 @@
 # YOLOv5 ascend 
 This repo is YOLOv5 om model inference program on the Huawei Ascend platform.
+
 All programs passed the test on Huawei Atlas 300I inference card (Ascend 310 AI CPU, CANN 5.0.2, npu-smi 21.0.2).
+
 You can run demo by `python detect_yolov5_ascend.py`.
 
 ## Export om model 
@@ -17,16 +19,16 @@ atc --input_shape="images:1,3,640,640" --input_format=NCHW --output="yolov5s" --
 ```
 
 ## Inference by Ascend NPU
-(1)Clone repo and move `*.om model` to `yolov5-ascend/ascend/*.om`.
+(1) Clone repo and move `*.om model` to `yolov5-ascend/ascend/*.om`.
 ```bash
 git clone https://github.com/jackhanyuan/yolov5-ascend
 mv yolov5s.om yolov5-ascend/ascend/
 ```
 
-(2)Edit label file in `yolov5-ascend/ascend/yolov5.label`.
+(2) Edit label file in `yolov5-ascend/ascend/yolov5.label`.
 
 
-(3)Run inference program.
+(3) Run inference program.
 ```bash
 python detect_yolov5_ascend.py
 ```
