@@ -1,4 +1,4 @@
 opencv_python
 Pillow
-onnx
 torch
+torchvision

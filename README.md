@@ -12,6 +12,7 @@ In addition to the Ascend environments with ATC tools, CANN(pyACL), and Python, 
 opencv_python
 Pillow
 torch
+torchvision
 ```
 
 ## Export om model 
