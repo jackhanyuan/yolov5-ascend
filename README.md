@@ -5,6 +5,15 @@ All programs passed the test on Huawei `Atlas 300I` inference card (`Ascend 310 
 
 You can run demo by `python detect_yolov5_ascend.py`.
 
+## Environments
+In addition to the Ascend environments with ATC tools, CANN(pyACL), and Python, you will need the following python packages.
+
+```txt
+opencv_python
+Pillow
+torch
+```
+
 ## Export om model 
 (1) Training your YOLOv5 model by [ultralytics/yolov5](https://github.com/ultralytics/yolov5). Then export the pytorch model to onnx format.
 ```bash
